@@ -1,0 +1,42 @@
+﻿backend/target/
+backend/*.jar
+backend/*.war
+backend/*.ear
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+
+.DS_Store
+Thumbs.db
+
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.production
+*.env
+
+# Application properties with sensitive data
+backend/src/main/resources/application-local.properties
+
+# Database
+*.db
+*.sqlite
+
+# Temporary files
+*.tmp
+*.temp
