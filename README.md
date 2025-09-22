@@ -50,27 +50,6 @@ CompliCheck is an enterprise-grade compliance management platform that leverages
    - Basic authentication framework in place
    - Security filter chain configured
 
-## Project Structure
-
-```
-CompliCheck/
-├── backend/                   # Spring Boot REST API
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/complicheck/backend/
-│   │   │   │   └── DemoApplication.java
-│   │   │   └── resources/
-│   │   │       └── application.properties
-│   │   └── test/
-│   ├── pom.xml               # Maven dependencies
-│   └── mvnw.cmd             # Maven wrapper
-├── frontend/                 # React TypeScript SPA (planned)
-├── .env                     # Environment variables (not committed)
-├── .gitignore              # Version control exclusions
-└── README.md               # Project documentation
-```
-
-## Configuration
 
 ### Database Setup
 ```bash
